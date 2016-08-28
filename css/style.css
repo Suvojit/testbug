@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url("../img/background.jpg") !important;
+    height: 100%;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+.ms-core-overlay {
+    padding-top: 0px;
+    background-image: url("../img/background.jpg") !important;
+    height: 100%;
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: 'Lato', sans-serif;
+}
+.bannerImg {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 220px;
+    min-height: 200px;
+}
+.bannerImg span img {
+    margin: 20px;
+}
+.blackBox {
+    font-weight: normal;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.siteType {
+    font-size: 20px;
+    color: #d0dae3;
+}
+.myList>li>a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.myList>li>a {
+    color: black;
+}
+.myList>li>a:focus,
+.myList>li>a:hover {
+    text-decoration: none;
+    background-color: #254D8A;
+    color: white;
+}
+.myList>.active>a {
+    color: white!important;
+    background-color: #254D8A;
+}
+.collapse {
+    box-shadow: 0 10px 6px -6px #777;
+    padding-left: 0px;
+}
+.sidebarList>li>a:focus,
+.sidebarList>li>a:hover {
+    text-decoration: none;
+    background-color: #254D8A;
+    color: white!important;
+    border-left: 5px solid #D95E00;
+    padding-left: 10px;
+}
+.sidenav > .sidebarList > li {
+    background-color: #254D8A;
+    /* height: 55px; */
+    /* color: white; */
+    
+    border-bottom: 1px solid white;
+}
+.sidenav > .sidebarList > li>a {
+    color: white;
+}
+.sidenav {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    background-color: #E7ECF1;
+}
+.sidebarList>.active>a {
+    color: white!important;
+    background-color: #254D8A;
+    border-left: 5px solid #D95E00;
+    padding-left: 10px;
+}
+.sidebarList>.activeSubMenu>.ulSubItems>.active>a {
+    color: white!important;
+    background-color: #D95E00;
+    border-left: 5px solid #254D8A;
+    padding-left: 40px;
+}
+.contentBox {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    width: 774px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.contentBox1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    width: 1059px;
+}
+.contentBoxTitle {
+    font-weight: normal;
+    font-size: 20px;
+    color: #042d43;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid #c6dce5;
+    padding: 10px 10px 10px 20px;
+}
+.contentBody {
+    line-height: 1.5;
+}
+.ms-fullscreenmode #contentBox {
+    margin-left: 20px;
+}
+.contentBoxText {
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+}
+.contentHeader {
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+}
+#s4-bodyContainer {
+    width: 1349px !important;
+    float: none;
+    margin-bottom: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0px !important;
+}
+#s4-titlerow {
+    display: none !important;
+}
+#contentBox {
+    margin-left: 20px;
+}
+#sideNavBox {
+    display: none;
+}
+.ulSubItems {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 1s ease-in-out;
+    list-style: none;
+    padding-left: 0px
+}
+.showSubmenu:hover .ulSubItems {
+    display: block!important;
+    max-height: 400px;
+}
+.activeSubMenu .ulSubItems {
+    display: block!important;
+    max-height: 400px;
+}
+.ulSubItems>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 40px;
+    color: #337ab7;
+}
+.ulSubItems>li {
+    background-color: #F4F8F9;
+    border-bottom: 1px solid white
+}
+.ulSubItems>li:hover {
+    background-color: #D95E00!important;
+    border-bottom: 1px solid white;
+}
+.sidenav > .sidebarList > li:last-child {
+    border-bottom: none!important;
+}
+.ulSubItems>li:hover a {
+    color: white;
+    text-decoration: none;
+}
+.js-webpart-titleCell {
+    padding-left: 20px;
+    margin-top: -10px;
+    border-bottom: 1px solid #c6dce5;
+}
+.ms-list-addnew {
+    padding-left: 20px;
+}
+.ms-rtestate-field TABLE {
+    padding-left: 20px;
+}
+.sliderImg {
+    width: 100%
+}
+.awardName {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    color: #042d43;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center
+}
+.carousel-indicators {
+    bottom: 35px;
+}
+.carousel-inner>.item {
+    transition: transform .2s ease-in-out;
+}
+.carousel-indicators .active {
+    background-color: #53565B;
+}
+.carousel-indicators li {
+    border: 1px solid #53565B;
+}
+.preloader {
+    height: 200px;
+    background: url(../img/spinner.gif) center center no-repeat;
+}
+.lineLoader {
+    height: 20px;
+    background: url(../img/loader.gif) center center no-repeat;
+}
+.bg-aqua {
+    background-color: #00c0ef !important;
+}
+.bg-green {
+    background-color: #00a65a !important;
+}
+.bg-yellow {
+    background-color: #f39c12 !important;
+}
+.bg-red {
+    background-color: #dd4b39 !important;
+}
+.small-box {
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.inner {
+    padding: 10px;
+}
+.small-box .icon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+}
+.dashboardMain {
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.p20 {
+    padding: 20px
+}
+.small-box:hover {
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.graphSection {
+    width: 1059px;
+}
+.chartShadow {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.allocationPercent{
+	font-size: 24px;
+}

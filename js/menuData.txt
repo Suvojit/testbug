@@ -1,0 +1,425 @@
+[
+	{
+		"tabName": "Home",
+		"tabURL": "hm_home.aspx",
+		"sideMenu": [
+			{
+				"menuText": "About Dow - TCS relationship",
+				"menuURL": "hm_home.aspx"
+			},
+			{
+				"menuText": "Current Project & Activities",
+				"menuURL": "hm_curProject.aspx"
+			},
+			{
+				"menuText": "Org Structure & Key communication Details",
+				"menuURL": "hm_orgStructure.aspx"
+			},
+			{
+				"menuText": "Induction",
+				"menuURL": "hm_induction.aspx"
+			},
+			{
+				"menuText": "SLA's",
+				"menuURL": "hm_slas.aspx"
+			},
+			{
+				"menuText": "Misc",
+				"menuURL": "hm_misc.aspx"
+			}
+		]
+	},
+	{
+		"tabName": "Application Support",
+		"tabURL": "app_orgStructure.aspx",
+		"sideMenu": [
+			{
+				"menuText": "Organisation Structure",
+				"menuURL": "app_orgStructure.aspx"
+			},
+			{
+				"menuText": "Support teams",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Mainframe",
+					"subMenuURL": "app_mainframe.aspx"
+				},
+				{
+					"subMenuText": "EDI",
+					"subMenuURL": "app_EDI.aspx"
+				},
+				{
+					"subMenuText": "SAP R2",
+					"subMenuURL": "app_SAPR2.aspx"
+				},
+				{
+					"subMenuText": "Microsoft",
+					"subMenuURL": "app_microsoft.aspx"
+				},
+				{
+					"subMenuText": "SFDC",
+					"subMenuURL": "app_SFDC.aspx"
+				},
+				{
+					"subMenuText": "PSFT",
+					"subMenuURL": "app_PSFT.aspx"
+				},
+				{
+					"subMenuText": "NEA ECC",
+					"subMenuURL": "app_NEAECC.aspx"
+				},
+				{
+					"subMenuText": "Mobility",
+					"subMenuURL": "app_mobility.aspx"
+				},
+				{
+					"subMenuText": "Lotus Notes",
+					"subMenuURL": "app_lotusNotes.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Application Portfolio",
+				"menuURL": "app_applicationPortfolio.aspx"
+			},
+			{
+				"menuText": "SGA / Continous Improvement",
+				"menuURL": "app_SGA.aspx"
+			},
+			{
+				"menuText": "IQA / EQA",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Audit Reports",
+					"subMenuURL": "app_auditReports.aspx"
+				},
+				{
+					"subMenuText": "Compliance Status",
+					"subMenuURL": "app_complianceStatus.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "KEDB",
+				"menuURL": "app_KEDB.aspx"
+			},
+			{
+				"menuText": "KIDB",
+				"menuURL": "app_KIDB.aspx"
+			},
+			{
+				"menuText": "Developement Projects",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "FTD -1",
+					"subMenuURL": "app_FTD1.aspx"
+				},
+				{
+					"subMenuText": "FTD -2",
+					"subMenuURL": "app_FTD2.aspx"
+				},
+				{
+					"subMenuText": "FTD -Gen 4",
+					"subMenuURL": "app_FTDGen4.aspx"
+				},
+				{
+					"subMenuText": "DOW Solar",
+					"subMenuURL": "app_dowSolar.aspx"
+				},
+				{
+					"subMenuText": "Wave",
+					"subMenuURL": "app_wave.aspx"
+				},
+				{
+					"subMenuText": "NEMT",
+					"subMenuURL": "app_NEMT.aspx"
+				},
+				{
+					"subMenuText": "Dow Agroscience Data Architecture",
+					"subMenuURL": "app_dowAgroscience.aspx"
+				},
+				{
+					"subMenuText": "Application Portfolio optimization",
+					"subMenuURL": "app_applicationOpt.aspx"
+				}
+			]
+			}
+		]
+	},
+	{
+		"tabName": "IT IS",
+		"tabURL": "itis_orgStructure.aspx",
+		"sideMenu": [
+			{
+				"menuText": "Organisation  Structure",
+				"menuURL": "itis_orgStructure.aspx"
+			},
+			{
+				"menuText": "Support Teams",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Oracle",
+					"subMenuURL": "itis_oracle.aspx"
+				},
+				{
+					"subMenuText": "SQL",
+					"subMenuURL": "itis_SQL.aspx"
+				},
+				{
+					"subMenuText": "Winapps",
+					"subMenuURL": "itis_winapps.aspx"
+				},
+				{
+					"subMenuText": "SAP BASIS",
+					"subMenuURL": "itis_SAPBASIS.aspx"
+				},
+				{
+					"subMenuText": "SAP Transport",
+					"subMenuURL": "itis_SAPTransport.aspx"
+				},
+				{
+					"subMenuText": "Documentum",
+					"subMenuURL": "itis_documentum.aspx"
+				},
+				{
+					"subMenuText": "Lotus Notes",
+					"subMenuURL": "itis_lotusNotes.aspx"
+				},
+				{
+					"subMenuText": "Performance testing",
+					"subMenuURL": "itis_performanceTesting.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Transition Documentation",
+				"menuURL": "itis_transDocumentation.aspx"
+			},
+			{
+				"menuText": "SGA /  Continuous Improvement",
+				"menuURL": "itis_SGA.aspx"
+			},
+			{
+				"menuText": "IQA / EQA",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Audit Reports",
+					"subMenuURL": "itis_auditReports.aspx"
+				},
+				{
+					"subMenuText": "Compliance Status",
+					"subMenuURL": "itis_complianceStatus.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Tech Management activity schedule",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Planned Backups",
+					"subMenuURL": "itis_plannedBackups.aspx"
+				},
+				{
+					"subMenuText": "Patch Management",
+					"subMenuURL": "itis_patchManagement.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Misc",
+				"menuURL": "itis_misc.aspx"
+			}
+		]
+	},
+	{
+		"tabName": "PMO",
+		"tabURL": "pmo_teamDetails.aspx",
+		"sideMenu": [
+		{
+			"menuText": "Team Details",
+			"menuURL": "pmo_teamDetails.aspx"
+		},
+			{
+				"menuText": "Customer Presentation",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Weekly Reports",
+					"subMenuURL": "pmo_weeklyReports.aspx"
+				},
+				{
+					"subMenuText": "Weekly Data",
+					"subMenuURL": "pmo_weeklyData.aspx"
+				},
+				{
+					"subMenuText": "Monthly Reports",
+					"subMenuURL": "pmo_monthlyReports.aspx"
+				},
+				{
+					"subMenuText": "Monthly Data",
+					"subMenuURL": "pmo_monthlyData.aspx"
+				}
+			]
+			},
+
+			{
+				"menuText": "Visa Tracker",
+				"menuURL": "pmo_visaTracker.aspx"
+			},
+			{
+				"menuText": "RMG Tracker",
+				"menuURL": "pmo_RMGTracker.aspx"
+			},
+			{
+				"menuText": "Asset Tracker",
+				"menuURL": "pmo_assetTracker.aspx"
+			},
+			{
+				"menuText": "KYC",
+				"menuURL": "pmo_KYC.aspx"
+			},
+			{
+				"menuText": "PSU",
+				"menuURL": "pmo_PSU.aspx"
+			},
+			{
+				"menuText": "BCP",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Updated Documents",
+					"subMenuURL": "pmo_updatedDocs.aspx"
+				},
+				{
+					"subMenuText": "Emergency Call Tree",
+					"subMenuURL": "pmo_emergencyCall.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "SOW Details",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Dashboard",
+					"subMenuURL": "pmo_dashboard.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Billing Details",
+				"menuURL": "pmo_billingDetails.aspx"
+			},
+			{
+				"menuText": "PMR",
+				"menuURL": "pmo_PMR.aspx"
+			},
+			{
+				"menuText": "Knowledge Management",
+				"menuURL": "pmo_knowledgeMgmt.aspx"
+			},
+			{
+				"menuText": "Training",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Team wise Training requirement",
+					"subMenuURL": "pmo_teamWise.aspx"
+				},
+				{
+					"subMenuText": "Training Compliance",
+					"subMenuURL": "pmo_trainingCompliance.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Proposals",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "ePay Tool",
+					"subMenuURL": "pmo_ePayTool.aspx"
+				},
+				{
+					"subMenuText": "Cloud RFP",
+					"subMenuURL": "pmo_cloudRFP.aspx"
+				},
+				{
+					"subMenuText": "Digital Marketing",
+					"subMenuURL": "pmo_digitalMarketing.aspx"
+				},
+				{
+					"subMenuText": "PSFT Hosting & Support",
+					"subMenuURL": "pmo_PSFTHosting.aspx"
+				},
+				{
+					"subMenuText": "R2 2N opportunity",
+					"subMenuURL": "pmo_R22N.aspx"
+				},
+				{
+					"subMenuText": "Operational Process Dashboard",
+					"subMenuURL": "pmo_operationalProcess.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "CG Presentations",
+				"menuURL": "pmo_CGPresentations.aspx"
+			},
+			{
+				"menuText": "VISA Processing",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Job Description",
+					"subMenuURL": "pmo_JobDescription.aspx"
+				},
+				{
+					"subMenuText": "VISA Tracker",
+					"subMenuURL": "pmo_visaTracker.aspx"
+				},
+				{
+					"subMenuText": "Letters",
+					"subMenuURL": "pmo_letters.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Service Governance",
+				"menuURL": "pmo_serviceGovernance.aspx"
+			},
+			{
+				"menuText": "GSmart",
+				"menuURL": "pmo_GSmart.aspx"
+			},
+			{
+				"menuText": "Customer Visit",
+				"menuURL": "#",
+				"subMenuItem": [
+				{
+					"subMenuText": "Tour Itinerary",
+					"subMenuURL": "pmo_tourItinerary.aspx"
+				},
+				{
+					"subMenuText": "Approval Formats",
+					"subMenuURL": "pmo_approvalFormats.aspx"
+				},
+				{
+					"subMenuText": "Important Vendor Contacts",
+					"subMenuURL": "pmo_ImpContacts.aspx"
+				}
+			]
+			},
+			{
+				"menuText": "Fun @ Work",
+				"menuURL": "pmo_funAtWork.aspx"
+			}
+		]
+	}
+	]
